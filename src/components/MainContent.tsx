@@ -53,7 +53,7 @@ export default function MainContent() {
 
   return (
     <div className={`flex-1 bg-gradient-to-b ${backgroundColor} via-black/90 to-black overflow-auto background-gradient`}>
-      <div className="p-8">
+      <div className="p-4 md:p-8 mb-20">
         <h1 className="text-2xl font-bold text-white mb-6">Good afternoon</h1>
         
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-8">

@@ -29,9 +29,9 @@ export default function Player() {
   };
 
   return (
-    <div className="h-20 bg-black/95 border-t border-gray-800/60 fixed bottom-0 w-full px-4 backdrop-blur-lg">
-      <div className="flex items-center justify-between h-full max-w-screen-2xl mx-auto">
-        <div className="flex items-center min-w-[180px] w-[30%]">
+    <div className="md:h-20 h-44 bg-black/95 border-t border-gray-800/60 fixed bottom-0 w-full px-4 backdrop-blur-lg">
+      <div className="flex items-center justify-between h-full max-w-screen-2xl mx-auto md:flex-row flex-col [&>*]:w-full w-full py-2">
+        <div className="flex items-center justify-center  md:w-[30%] w-full">
           <div className="group relative">
             <img 
               src="https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=50&h=50&fit=crop" 
@@ -56,7 +56,7 @@ export default function Player() {
           </button>
         </div>
         
-        <div className="flex flex-col items-center max-w-[45%] w-full px-4">
+        <div className="flex flex-col items-center  w-full px-4">
           <div className="flex items-center gap-4 mb-2">
             <button className="text-gray-400 hover:text-white transition-colors">
               <Shuffle className="w-4 h-4" />
